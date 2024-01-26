@@ -1,7 +1,6 @@
 <?php
 require_once('src/model.php');
 function lobby(){
-    session_start();
 ?>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <?php
@@ -28,8 +27,7 @@ function lobby(){
             $resultat = 0;
 
             // Requête SQL pour insérer les données dans la table "partie"
-            $insert = "INSERT INTO partie (id_utilisateur, premier_joueur, date_debut, date_fin, resultat) 
-                    VALUES ('$idUtilisateur', '$premierJoueur', '$dateDebut', '$dateFin', '$resultat')";
+            $insert = "INSERT INTO partie (id_utilisateur, premier_joueur, date_debut, date_fin, resultat) VALUES ('$idUtilisateur', '$premierJoueur', '$dateDebut', '$dateFin', '$resultat')";
             insertion($insert);
 
             $idPartie = last_insert_id();

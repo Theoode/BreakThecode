@@ -1,4 +1,4 @@
-    <link rel="stylesheet" href="../src/includes/style/styleJeu.css">
+    <link rel="stylesheet" href="/src/includes/style/styleJeu.css">
     <title>Partie</title>
     <div>
         <div class="zone_aide">

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../src/includes/style/styleLobby.css">
+<link rel="stylesheet" href="src/includes/style/styleLobby.css">
 <?php
 
 ?>
@@ -35,7 +35,7 @@
             }
                 ?>
             </form>
-            <p class="description">Pour en savoir plus sur les règles <a href="/regles"> cliquez ici </a> </p>
+            <p class="description">Pour en savoir plus sur les règles <a href="regles"> cliquez ici </a> </p>
             <div class="hint"></div>
         </div>
         <!-- Partie de droite -->
@@ -80,10 +80,10 @@
                     // Si l'utilisateur n'est pas connecté, afficher le contenu actuel
                     echo '<h2>Pour afficher vos statistiques veuillez vous connecter</h2>';
                     echo '<div class="text-center">';
-                    echo '<button type="button" class="text-center" onclick="window.location.href=\'/connexion\'">Se connecter</button>';
+                    echo '<button type="button" class="text-center"> <a href="connexion">Se connecter</a></button>';
                     echo '</div>';
                     echo '<div class="text-center">';
-                    echo '<p>Si vous n\'avez pas de compte <a href="/inscription">inscrivez vous ici</a></p>';
+                    echo '<p>Si vous n\'avez pas de compte <a href="inscription">inscrivez vous ici</a></p>';
                     echo '</div>';
                 }
                 ?>

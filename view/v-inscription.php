@@ -2,7 +2,7 @@
 require_once('src/model.php');
 ?>
 
-<link rel="stylesheet" href="../src/includes/style/styleInscription.css">
+<link rel="stylesheet" href="src/includes/style/styleInscription.css">
 
 <form method="POST">
     <h2>BREAK THE CODE</h2>
@@ -25,6 +25,6 @@ require_once('src/model.php');
 
     <div class="divBtnInscription">
         <button type="submit" name="inscription" value="Inscription">S'inscrire</button>
-        <button type="button" onclick="window.location.href='/'">Accueil</button>
+        <button type="button" onclick="window.location.href='lobby'">Accueil</button>
     </div>
 </form>

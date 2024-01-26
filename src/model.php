@@ -1,9 +1,9 @@
 <?php
-$nomBase = "s5-gp4_";
+$nomBase = "breakthecode";
 $adrServ = "localhost";
 $portServ = 3306;
-$userName = "s5-gp4";
-$userPWd = "nY7oQ6bG+rA!";
+$userName = "root";
+$userPWd = "";
 
 try {
     $pdo = new PDO(
