@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'crack';
+    font-display:swap;
+    src: url(Cracked_Code.ttf);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+.box{
+    justify-content: center;
+    margin: 0 20%;
+}
+
+
+.tuile{
+    margin:8px;
+    text-align: center;
+    height: 80px;
+    border-radius: 10px;
+    background-color: white;
+    width: 60px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    border-width: 2px;
+    transition: transform 0.3s ease;
+    position: relative;
+    box-shadow: #122C34 5px 5px;
+}
+
+
+/*Style pour la croix lorsque l'on barre un chiffre */
+.croix {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 8px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: red;
+    pointer-events: auto;
+}
+
+.tuile:hover{
+    transform: translateY(-15px);
+}
+
+.tuile p{
+    font-size: x-large;
+}
+
+.chiffre_blanc{
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    color: white;
+}
+
+.chiffre_noir{
+    color: black;
+}
+
+.chiffre_vert{
+    color: green;
+}
+/*La grille pour les cartes en bas et la modif avec les couleurs*/
+
+.zone_cartes{
+    display: flex;
+    height: 190px;
+    width: 650px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-left: 50px;
+}
+
+.accueil-button {
+    position: fixed;
+    top: 10px; /* Ajustez la valeur en fonction de la marge supérieure souhaitée */
+    right: 10px; /* Ajustez la valeur en fonction de la marge droite souhaitée */
+}
+
+.accueil-button button {
+    background-color: #2a8c0b; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Coins arrondis */
+}
+
+.accueil-button button:hover {
+    background-color: #2a8c0b; /* Couleur de fond au survol du bouton */
+}
+
+
+.container_carte{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.abandonner-button-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.abandonner-button {
+    background-color: red; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Coins arrondis */
+}
+
+.abandonner-button:hover {
+    background-color: #8a0303; /* Couleur de fond au survol du bouton */
+}
+
+.zone_combinaison{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Couleur des tuiles à deviner*/
+
+.input{
+    height: 80px;
+    width: 60px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: right;
+    border-color: black;
+    font-size: x-large;
+    border-style: dashed;
+}
+
+
+.btnWhite{
+    height: 20px;
+    width: 20px;
+    background-color: #FFF;
+    border-style: solid;
+    border-color: black;
+}
+ .btnBlack{
+    height: 20px;
+    width: 20px;
+    background-color: #000;
+}
+.btnGreen{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(28,127,20);
+}
+
+.btn{
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    margin: 2px;
+}
+
+.timer{
+    height: 40px;
+    width: 100px;
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+    border-color: black;
+    color: black;
+    font-size: x-large;
+}
+
+/* le bouton d'aide pour les règles*/
+.zone_aide {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.zone_aide a{
+    display: flex;
+}
+
+.icone {
+    width: 40px;
+    height: 40px;
+}
+
+.zone_question{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #CDF8BE;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.question{
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    height: 85%;
+    width: 140px;
+    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    filter: drop-shadow(2px 5px 10px #6b6b6b);
+    box-shadow: #122C34 5px 5px;
+}
+
+.question:hover{
+    transform: translateY(-15px);
+}
+
+.question p{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@media only screen and (max-width: 1300px) {
+        .tuile {
+            width: 10%;
+        }
+}
+

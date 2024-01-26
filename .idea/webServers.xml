@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="414362ac-8e38-40fc-a530-24e99c3f6dd3" name="pecro" url="http://s5-gp4.kevinpecro.info">
+        <fileTransfer rootFolder="/httpdocs" host="s5-gp4.kevinpecro.info" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

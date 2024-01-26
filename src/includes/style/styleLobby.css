@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'crack';
+    font-display:swap;
+    src: url(Cracked_Code.ttf);
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #ffffff;
+}
+.container {
+    margin-top: 30px;
+}
+.left-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+a{
+    color: #28c431;
+    text-decoration: none;
+}
+a:hover{
+    color: #236b1f;
+    font-weight: bold;
+}
+
+.right-section {
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.title {
+    font-family: 'crack', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.description {
+    text-align: center;
+    font-size: 20px;
+    font-family: Poppins;
+    margin-bottom: 15px;
+}
+.launch-button {
+    background-color: #28a745;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    width: fit-content;
+    padding: 22px 45px;
+    border-radius: 40px;
+    margin: 35px auto;
+    display: block;
+    text-decoration: none!important;
+    font-weight: bold;
+    font-family: Poppins;
+    transition: background-color 0.3s; /* Ajoute une transition en douceur pour le changement de couleur de fond */
+}
+
+.launch-button:hover {
+    background-color: #167d16; /* Nouvelle couleur de fond au survol */
+    color:white!important;
+    font-weight: bold;
+}
+
+.hint {
+    text-align: center;
+    font-size: 17px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+}
+.profile-card {
+    background-color: #DEDEDE;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.profile-image {
+    text-align: center;
+}
+.profile-title {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.profile-info {
+    margin-top: 20px;
+}
+.profile-label {
+    font-weight: bold;
+    color: #28a745;
+}
+.profile-statistics {
+    margin-top: 20px;
+}
+.statistics-label {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.profile-info, .profile-statistics, .profile-title{
+    font-family: Poppins;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin: 25px;
+}
+
+/*Options du formulaire*/
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 20px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/*Options des zones entrée formulaires*/
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+
+/*Trait en dessous des zones de texte*/
+hr{
+    width: 95%;
+}
+
+/*Option du bouton s'inscrire*/
+button {
+    width: 170px;
+    margin-bottom: 20px;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: large;
+    background-color: #28a745;
+}
+
+button:hover {
+    background-color: #006400;
+}
+
+
+.divLogoutBtn{
+    text-align: center;
+}
+
+.buttonLogout {
+    width: auto;
+    margin: 20px;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: large;
+    background-color: #b70a1c;
+}
+
+.buttonLogout:hover {
+    background-color: #8a0303;
+}
+
+/* Style du placeholder */
+input::placeholder {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(0);
+}
+
+/* Style du placeholder en focus */
+input:focus::placeholder {
+    opacity: 0;
+    transform: translateY(-20px); /* Ajustez la valeur en pixels pour le déplacement */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
