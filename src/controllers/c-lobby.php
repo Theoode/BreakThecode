@@ -16,7 +16,7 @@ function lobby(){
             $result = get_result($existingGame);
             if ($result) {
                 // Une partie non terminée existe, rediriger vers la page de jeu
-                header("Location: /jeu");
+                header("Location: jeu");
                 exit();
             }
 

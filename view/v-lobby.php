@@ -1,7 +1,8 @@
 <link rel="stylesheet" href="src/includes/style/styleLobby.css">
 <?php
-
 ?>
+
+
 <div class="container">
     <div class="row">
         <div class="col-md-12 title">BREAK THE CODE</div>
@@ -38,6 +39,10 @@
             <p class="description">Pour en savoir plus sur les règles <a href="regles"> cliquez ici </a> </p>
             <div class="hint"></div>
         </div>
+
+
+
+
         <!-- Partie de droite -->
         <div class="col-lg-5 right-section">
             <form method="post">
@@ -87,6 +92,7 @@
                     echo '</div>';
                 }
                 ?>
+            </form>
             </form>
         </div>
 

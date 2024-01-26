@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/src/includes/style/styleRegles.css">
+<link rel="stylesheet" href="src/includes/style/styleRegles.css">
 
 <div>
     <div class="container">

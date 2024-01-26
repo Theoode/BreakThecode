@@ -1,15 +1,15 @@
-    <link rel="stylesheet" href="/src/includes/style/styleJeu.css">
+    <link rel="stylesheet" href="src/includes/style/styleJeu.css">
     <title>Partie</title>
     <div>
         <div class="zone_aide">
-            <a href="/regles" target="_blank">
+            <a href="regles" target="_blank">
                 <img class="icone" src="../src/images/help.png">
                 <h3>Aide</h3>
             </a>
         </div>
         <div>
             <!-- Bouton pour revenir à l'accueil -->
-            <a href="/" class="accueil-button">
+            <a href="lobby" class="accueil-button">
                 <button type="button">Accueil</button>
             </a>
         </div>

@@ -25,7 +25,7 @@ require_once('src/model.php');
 
     <div class="divBtnConnexion">
         <button type="submit" name="connexion" value="connexion">Connexion</button>
-        <button type="submit" onclick="window.location.href=''">Accueil</button>
+        <button type="submit" href="lobby">Accueil</button>
     </div>
 
     <p style="text-align: center ">Vous n'avez pas de compte ? <a href="inscription" style="color: #28c431;text-decoration: none;">Inscrivez-vous ici</a> </p>
